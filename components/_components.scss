@@ -1,0 +1,39 @@
+:root {
+  --black-color: rgb(0, 0, 0);
+  --color-menu: #262626;
+  --color-pink: #f27a9b;
+  --color-green: #52d772;
+}
+
+.pink-border {
+  border: 1px solid var(--color-green) !important;
+}
+
+.green-border {
+  border: 1px solid var(--color-pink) !important;
+}
+
+@keyframes sand-disappear {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  30% {
+    opacity: 0.9;
+    clip-path: polygon(5% 0%, 95% 0%, 90% 100%, 10% 100%);
+  }
+  60% {
+    opacity: 0.5;
+    transform: translateY(10px);
+    filter: blur(3px);
+    clip-path: polygon(10% 10%, 90% 5%, 80% 95%, 20% 90%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(30px);
+    filter: blur(8px);
+    clip-path: polygon(40% 20%, 60% 10%, 50% 100%, 50% 100%);
+  }
+}

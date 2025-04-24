@@ -1,0 +1,13 @@
+{
+  "liveServer.settings.port": 5501,
+  "json.schemas": [],
+  "liveSassCompile.settings.includeItems": ["/style.scss"],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false
+}

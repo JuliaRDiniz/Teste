@@ -1,0 +1,306 @@
+@media (max-width: 520px) {
+  html {
+    font-size: 48% !important;
+
+    & body {
+      & main {
+        & .about-me {
+          & .container-about {
+            & .cx-square {
+              gap: 0.8rem;
+              grid-template-columns: repeat(3, 9rem);
+              grid-template-rows: repeat(3, 9rem);
+              height: 245px;
+              width: 245px;
+
+              & .square {
+                width: 9rem;
+                height: 9rem;
+              }
+              .img {
+                width: 105px;
+                top: 58.85%;
+                left: 48%;
+              }
+            }
+
+            & .cx-about-me {
+              width: 39rem;
+              gap: 0.8rem;
+            }
+          }
+        }
+
+        & .projetos {
+          & .container-projeto {
+            & .subtitulo-projetos {
+              font-size: 6.5rem !important;
+            }
+            & .div-projetos {
+              width: 43rem !important;
+              gap: 0;
+              & .seta-esquerda-ativa {
+                width: 3.4rem !important;
+              }
+
+              & .carousel-wrapper {
+                width: 34rem !important;
+                & .carousel {
+                  width: 35rem !important;
+                  & .info-projetos {
+                    width: 35rem !important;
+                    & .descricao-projeto {
+                      gap: 1rem;
+                      width: 32rem;
+                    }
+
+                    &.pag-one {
+                      gap: 3.5rem;
+                      & .img-projeto {
+                        width: 15rem !important;
+                        height: 24rem !important;
+                      }
+
+                      & .veja-mais {
+                        margin-left: -2rem;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 690px) {
+  body {
+    & .header {
+      & .navegation {
+        & .nav-list {
+          display: none;
+          position: relative;
+
+          &.show {
+            justify-content: space-around;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: black;
+            width: 50vw;
+            height: 85vh;
+            right: 0;
+            top: 8vh;
+            position: absolute;
+            padding: 2rem;
+          }
+        }
+      }
+      & #menu-btn {
+        display: block !important;
+      }
+    }
+    main {
+      & #home {
+        & .titulo {
+          font-size: 2.6rem;
+        }
+      }
+
+      & .projetos {
+        & .container-projeto {
+          & .subtitulo-projetos {
+            font-size: 7.5rem !important;
+            letter-spacing: 0.1rem;
+          }
+          & .div-projetos {
+            width: 50rem !important;
+            height: 61rem !important;
+            & .carousel-wrapper {
+              width: 39rem !important;
+              height: 47rem !important;
+              overflow: visible;
+              & .carousel {
+                width: 40rem !important;
+                height: 50rem !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    & #contato {
+      .container-rodape {
+        height: 275px;
+        padding: 2rem 3rem;
+        align-items: center;
+
+        & .contato {
+          flex-flow: column;
+          gap: 1.5rem;
+
+          & .div {
+            gap: 0.7rem;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  body {
+    & .about-me {
+      align-items: center;
+      display: flex;
+      height: auto;
+      .container-about {
+        padding: 8rem 2rem;
+        flex-flow: column;
+        gap: 2rem;
+      }
+    }
+
+    & .projetos {
+      & .container-projeto {
+        & .div-projetos {
+          width: 61rem !important;
+          height: 58rem !important;
+          .carousel-wrapper {
+            width: 57rem !important;
+            height: 47rem !important;
+            overflow: visible !important;
+            & .carousel {
+              width: 49rem;
+              height: 33rem;
+
+              & .info-projetos {
+                flex-flow: column;
+                gap: 4rem;
+
+                &.pag-one {
+                  gap: 1.5rem;
+                }
+              }
+
+              & .veja-mais {
+                margin-top: 50rem;
+                margin-left: -1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    & #contato {
+      .container-rodape {
+        padding: 2rem 3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    & header {
+      & div {
+        font-size: 1.6rem;
+      }
+
+      & .nav-list {
+        font-size: 1.4rem;
+      }
+    }
+    & main {
+      & .titulo {
+        font-size: 3rem;
+      }
+      & .about-me {
+        .container-about {
+          gap: 2rem;
+          & .cx-square {
+            display: grid;
+            grid-template-columns: repeat(3, 10rem);
+            grid-template-rows: repeat(3, 10rem);
+            height: 330px;
+            width: 330px;
+
+            & .square {
+              width: 10rem;
+              height: 10rem;
+            }
+
+            .img {
+              top: 60.85%;
+              left: 49%;
+              width: 150px;
+            }
+          }
+
+          & .cx-about-me {
+            width: 45rem;
+
+            & p {
+              font-size: 1.3rem;
+
+              text-align: justify;
+            }
+          }
+        }
+      }
+
+      & .projetos {
+        & .container-projeto {
+          & .div-projetos {
+            background-color: #26262652;
+            width: 82rem;
+            height: 41rem;
+
+            & .texto-info-projeto {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+
+    & footer {
+      .container-rodape {
+        display: flex;
+        gap: 3rem;
+        height: 240px;
+        padding: 3rem 7rem;
+
+        & .agradecimento {
+          & h3 {
+            font-size: 1.6rem;
+          }
+
+          & img {
+            width: 2.2rem;
+          }
+        }
+
+        & .contato {
+          & .title {
+            font-size: 1.4rem;
+          }
+
+          & img {
+            width: 1.8rem;
+            height: 1.8rem;
+          }
+
+          & a {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

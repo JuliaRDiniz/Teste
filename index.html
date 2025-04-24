@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Julia Diniz</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div><p>&lt;Julia Diniz/&gt;</p></div>
+
+      <nav class="navegation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">Sobre Mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <span class="material-symbols-outlined" id="menu-btn"> menu </span>
+    </header>
+    <main>
+      <section class="Bem-vindos" id="home">
+        <div id="particles-js"></div>
+        <h1 class="titulo">
+          <span id="texto"></span><span class="cursor">|</span>
+        </h1>
+      </section>
+      <section class="about-me hidden" id="about-me">
+        <div class="container-about">
+          <div class="cx-square">
+            <div class="square one"></div>
+            <div class="square two"></div>
+            <div class="square three"></div>
+            <div class="square four"></div>
+            <div class="square five"></div>
+            <div class="square six"></div>
+            <div class="square seven"></div>
+            <div class="square eigth"></div>
+            <div class="square nine"></div>
+
+            <img src="imagens/1000117129 1.svg" alt="" class="img hidden" />
+          </div>
+          <div class="cx-about-me">
+            <h2 class="titulo-sobreMim">Sobre Mim</h2>
+            <p>
+              Olá! Meu nome é Julia, tenho 24 anos e sou formada em Análise e
+              Desenvolvimento de Sistemas. Minha jornada profissional começou
+              como atendente, atuei por seis anos na área farmacêutica. Durante
+              esse período, além do conhecimento técnico, desenvolvi habilidades
+              essenciais como solucionar problemas, comunicação eficaz,
+              organização, agilidade, gentileza e trabalho em equipe.
+            </p>
+            <p>
+              Meu interesse pela tecnologia e minha curiosidade me levaram ao
+              desenvolvimento front-end, área na qual busco me especializar cada
+              vez mais. Atualmente, tenho experiência com HTML, CSS, SCSS,
+              JavaScript, Sass e React Native, e estou sempre em busca de novos
+              desafios e aprendizados para aprimorar minhas habilidades.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projetos hidden" id="projetos">
+        <div class="container-projeto">
+          <h2 class="title-projetos">&lt;Projetos/&gt;</h2>
+          <p class="subtitulo-projetos">PROJETOS</p>
+          <div class="div-projetos">
+            <img
+              src="imagens/arrow logo left (1).png"
+              alt="seta esquerda"
+              class="seta-esquerda"
+            />
+            <div class="carousel-wrapper">
+              <div class="carousel">
+                <div class="info-projetos pag-one">
+                  <div class="img-projeto div-img-pag-one">
+                    <img src="imagens/AppCadHere.png" alt="" />
+                    <div class="div-button">
+                      <a
+                        href="https://github.com/JuliaRDiniz/meu-app"
+                        target="_blank"
+                        class="gitHub"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 25 25"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M12.4962 1.5C9.8848 1.50135 7.35899 2.42628 5.37046 4.10937C3.38192 5.79247 2.06033 8.124 1.64199 10.687C1.22365 13.2501 1.73584 15.8775 3.08699 18.0996C4.43814 20.3216 6.54013 21.9933 9.0171 22.8157C9.56356 22.9172 9.7694 22.5785 9.7694 22.2905C9.7694 22.0025 9.75846 21.1676 9.75482 20.2547C6.69464 20.9158 6.048 18.9634 6.048 18.9634C5.5489 17.6955 4.82757 17.3623 4.82757 17.3623C3.82936 16.6849 4.90226 16.6976 4.90226 16.6976C6.00793 16.7755 6.589 17.8259 6.589 17.8259C7.56899 19.4977 9.16282 19.0141 9.78943 18.7315C9.88779 18.0234 10.1738 17.5416 10.4889 17.2681C8.0444 16.9928 5.47603 16.0546 5.47603 11.8635C5.46088 10.7766 5.86653 9.72549 6.60903 8.92763C6.4961 8.65233 6.11903 7.54027 6.7165 6.02975C6.7165 6.02975 7.64003 5.73634 9.74208 7.15087C11.5451 6.66061 13.4474 6.66061 15.2504 7.15087C17.3506 5.73634 18.2723 6.02975 18.2723 6.02975C18.8716 7.53665 18.4946 8.64871 18.3816 8.92763C19.1265 9.72562 19.533 10.7786 19.5164 11.8672C19.5164 16.0673 16.9426 16.9928 14.4945 17.2627C14.8879 17.6032 15.2395 18.2679 15.2395 19.2894C15.2395 20.7528 15.2267 21.9301 15.2267 22.2905C15.2267 22.5821 15.4253 22.9226 15.9827 22.8157C18.4599 21.9932 20.5621 20.3212 21.9132 18.0988C23.2644 15.8764 23.7763 13.2485 23.3575 10.6853C22.9387 8.12198 21.6164 5.79043 19.6272 4.10762C17.638 2.42481 15.1116 1.5005 12.4999 1.5H12.4962Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M8.85471 19.3527C8.85471 19.4415 8.75271 19.5176 8.62156 19.5194C8.4904 19.5212 8.38293 19.4487 8.38293 19.36C8.38293 19.2712 8.48495 19.1952 8.6161 19.1934C8.74725 19.1916 8.85471 19.2622 8.85471 19.3527Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M9.69264 19.2133C9.70903 19.302 9.61795 19.3944 9.4868 19.4161C9.35565 19.4379 9.2409 19.3853 9.2245 19.2984C9.20811 19.2115 9.30283 19.1173 9.43034 19.0938C9.55784 19.0702 9.67624 19.1245 9.69264 19.2133Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M7.95493 19.2911C7.92761 19.3762 7.80374 19.4142 7.67988 19.378C7.55601 19.3418 7.47405 19.2404 7.49772 19.1534C7.5214 19.0665 7.64709 19.0266 7.77278 19.0665C7.89846 19.1063 7.97861 19.2023 7.95493 19.2911Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M7.12975 18.9362C7.06964 19.0032 6.9476 18.9851 6.84742 18.8945C6.74723 18.804 6.72355 18.6808 6.78366 18.6156C6.84377 18.5504 6.96581 18.5685 7.06964 18.6573C7.17347 18.746 7.19351 18.871 7.12975 18.9362Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M6.5414 18.3276C6.47401 18.3747 6.35924 18.3276 6.29549 18.2335C6.27786 18.2166 6.26384 18.1963 6.25427 18.1739C6.24469 18.1515 6.23975 18.1274 6.23975 18.103C6.23975 18.0787 6.24469 18.0546 6.25427 18.0322C6.26384 18.0098 6.27786 17.9896 6.29549 17.9727C6.36289 17.9275 6.47765 17.9726 6.5414 18.065C6.60516 18.1574 6.60698 18.2805 6.5414 18.3276Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M6.1079 17.6992C6.07018 17.7181 6.02702 17.7233 5.98582 17.7141C5.94461 17.7048 5.90793 17.6816 5.88203 17.6484C5.81099 17.5724 5.79641 17.4673 5.85106 17.4202C5.9057 17.3731 6.00408 17.3949 6.07512 17.4709C6.14616 17.547 6.16255 17.6521 6.1079 17.6992Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M5.66154 17.2047C5.63786 17.259 5.55043 17.2753 5.47939 17.2373C5.40835 17.1993 5.35552 17.1286 5.38103 17.0725C5.40653 17.0163 5.49214 17.0019 5.56318 17.0399C5.63422 17.0779 5.68886 17.1504 5.66154 17.2047Z"
+                            fill="#313B49"
+                          />
+                        </svg>
+                      </a>
+                      <a
+                        href="https://drive.google.com/file/d/1WhUOdsPYoL5UyBUZZtltxX81voJ0eLqL/view?usp=sharing"
+                        target="_blank"
+                        class="visitar"
+                        >Visitar</a
+                      >
+                    </div>
+                  </div>
+                  <div class="descricao-projeto">
+                    <div class="div-info">
+                      <h3 class="titulo-projeto">Aplicativo CadHere</h3>
+                      <p class="texto-info-projeto">
+                        Aplicativo de gerenciamento de clientes desenvolvido
+                        como projeto de Extensão na faculdade. Construído com
+                        React Native, JavaScript e Expo Go, o app permite
+                        adicionar, remover organizar e acompanhar informações
+                        dos clientes de forma eficiente.
+                      </p>
+                    </div>
+                    <div class="logo-linguagens">
+                      <img
+                        src="imagens/java-script_721671.png"
+                        alt="logo-javascript"
+                        width="20px"
+                      />
+                      <img
+                        src="imagens/react-native.dark logo.png"
+                        alt="logo-react-native"
+                        width="30px"
+                      />
+                      <img
+                        src="imagens/Expo-logo-wordmark logo.png"
+                        alt="Expo-logo"
+                        width="70px"
+                      />
+                    </div>
+                  </div>
+                  <div class="veja-mais">
+                    <div class="circle one"></div>
+                    <div class="circle two"></div>
+                    <div class="circle three"></div>
+                    <div class="circle four"></div>
+                  </div>
+                </div>
+
+                <div class="info-projetos pag-two pag-escondida">
+                  <div class="img-projeto div-img-pag-two">
+                    <img src="imagens/PizzariaHash.png" alt="" />
+                    <div class="div-button">
+                      <a
+                        href="https://github.com/JuliaRDiniz/PizzaHash"
+                        target="_blank"
+                        class="gitHub"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 25 25"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M12.4962 1.5C9.8848 1.50135 7.35899 2.42628 5.37046 4.10937C3.38192 5.79247 2.06033 8.124 1.64199 10.687C1.22365 13.2501 1.73584 15.8775 3.08699 18.0996C4.43814 20.3216 6.54013 21.9933 9.0171 22.8157C9.56356 22.9172 9.7694 22.5785 9.7694 22.2905C9.7694 22.0025 9.75846 21.1676 9.75482 20.2547C6.69464 20.9158 6.048 18.9634 6.048 18.9634C5.5489 17.6955 4.82757 17.3623 4.82757 17.3623C3.82936 16.6849 4.90226 16.6976 4.90226 16.6976C6.00793 16.7755 6.589 17.8259 6.589 17.8259C7.56899 19.4977 9.16282 19.0141 9.78943 18.7315C9.88779 18.0234 10.1738 17.5416 10.4889 17.2681C8.0444 16.9928 5.47603 16.0546 5.47603 11.8635C5.46088 10.7766 5.86653 9.72549 6.60903 8.92763C6.4961 8.65233 6.11903 7.54027 6.7165 6.02975C6.7165 6.02975 7.64003 5.73634 9.74208 7.15087C11.5451 6.66061 13.4474 6.66061 15.2504 7.15087C17.3506 5.73634 18.2723 6.02975 18.2723 6.02975C18.8716 7.53665 18.4946 8.64871 18.3816 8.92763C19.1265 9.72562 19.533 10.7786 19.5164 11.8672C19.5164 16.0673 16.9426 16.9928 14.4945 17.2627C14.8879 17.6032 15.2395 18.2679 15.2395 19.2894C15.2395 20.7528 15.2267 21.9301 15.2267 22.2905C15.2267 22.5821 15.4253 22.9226 15.9827 22.8157C18.4599 21.9932 20.5621 20.3212 21.9132 18.0988C23.2644 15.8764 23.7763 13.2485 23.3575 10.6853C22.9387 8.12198 21.6164 5.79043 19.6272 4.10762C17.638 2.42481 15.1116 1.5005 12.4999 1.5H12.4962Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M8.85471 19.3527C8.85471 19.4415 8.75271 19.5176 8.62156 19.5194C8.4904 19.5212 8.38293 19.4487 8.38293 19.36C8.38293 19.2712 8.48495 19.1952 8.6161 19.1934C8.74725 19.1916 8.85471 19.2622 8.85471 19.3527Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M9.69264 19.2133C9.70903 19.302 9.61795 19.3944 9.4868 19.4161C9.35565 19.4379 9.2409 19.3853 9.2245 19.2984C9.20811 19.2115 9.30283 19.1173 9.43034 19.0938C9.55784 19.0702 9.67624 19.1245 9.69264 19.2133Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M7.95493 19.2911C7.92761 19.3762 7.80374 19.4142 7.67988 19.378C7.55601 19.3418 7.47405 19.2404 7.49772 19.1534C7.5214 19.0665 7.64709 19.0266 7.77278 19.0665C7.89846 19.1063 7.97861 19.2023 7.95493 19.2911Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M7.12975 18.9362C7.06964 19.0032 6.9476 18.9851 6.84742 18.8945C6.74723 18.804 6.72355 18.6808 6.78366 18.6156C6.84377 18.5504 6.96581 18.5685 7.06964 18.6573C7.17347 18.746 7.19351 18.871 7.12975 18.9362Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M6.5414 18.3276C6.47401 18.3747 6.35924 18.3276 6.29549 18.2335C6.27786 18.2166 6.26384 18.1963 6.25427 18.1739C6.24469 18.1515 6.23975 18.1274 6.23975 18.103C6.23975 18.0787 6.24469 18.0546 6.25427 18.0322C6.26384 18.0098 6.27786 17.9896 6.29549 17.9727C6.36289 17.9275 6.47765 17.9726 6.5414 18.065C6.60516 18.1574 6.60698 18.2805 6.5414 18.3276Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M6.1079 17.6992C6.07018 17.7181 6.02702 17.7233 5.98582 17.7141C5.94461 17.7048 5.90793 17.6816 5.88203 17.6484C5.81099 17.5724 5.79641 17.4673 5.85106 17.4202C5.9057 17.3731 6.00408 17.3949 6.07512 17.4709C6.14616 17.547 6.16255 17.6521 6.1079 17.6992Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M5.66154 17.2047C5.63786 17.259 5.55043 17.2753 5.47939 17.2373C5.40835 17.1993 5.35552 17.1286 5.38103 17.0725C5.40653 17.0163 5.49214 17.0019 5.56318 17.0399C5.63422 17.0779 5.68886 17.1504 5.66154 17.2047Z"
+                            fill="#313B49"
+                          />
+                        </svg>
+                      </a>
+                      <a
+                        href="https://juliardiniz.github.io/PizzaHash/"
+                        target="_blank"
+                        class="visitar"
+                        >Visitar</a
+                      >
+                    </div>
+                  </div>
+                  <div class="descricao-projeto div-info-pag-two">
+                    <div class="div-info">
+                      <h3 class="titulo-projeto">Pizzaria Hash</h3>
+                      <p class="texto-info-projeto">
+                        Site interativo para uma pizzaria, criado para testar e
+                        aprimorar meus conhecimentos em HTML, CSS, SCSS (Sass) e
+                        JavaScript. O projeto inclui um carrinho de compras
+                        dinâmico onde os clientes podem visualizar o menu,
+                        adicionar e remover itens do carrinho e simular um
+                        pedido, interface responsiva e interação intuitiva para
+                        os usuários.
+                      </p>
+                    </div>
+                    <div class="logo-linguagens">
+                      <img
+                        src="imagens/java-script_721671.png"
+                        alt="logo-javascript"
+                        width="24px"
+                      />
+                      <img
+                        src="imagens/HTML logo.png"
+                        alt="logo-html"
+                        width="24px"
+                      />
+                      <img
+                        src="imagens/css-3.png"
+                        alt="logo-css"
+                        width="24px"
+                      />
+                      <img src="imagens/sass logo.png" alt="logo scss" />
+                    </div>
+                  </div>
+                  <div class="veja-mais">
+                    <div class="circle one"></div>
+                    <div class="circle two"></div>
+                    <div class="circle three"></div>
+                    <div class="circle four"></div>
+                  </div>
+                </div>
+
+                <div class="info-projetos pag-three pag-escondida">
+                  <div class="img-projeto div-img-pag-three">
+                    <img src="imagens/planejefacil.png" alt="" />
+                    <div class="div-button">
+                      <a
+                        href="https://github.com/JuliaRDiniz/PizzaHash"
+                        target="_blank"
+                        class="gitHub"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 25 25"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M12.4962 1.5C9.8848 1.50135 7.35899 2.42628 5.37046 4.10937C3.38192 5.79247 2.06033 8.124 1.64199 10.687C1.22365 13.2501 1.73584 15.8775 3.08699 18.0996C4.43814 20.3216 6.54013 21.9933 9.0171 22.8157C9.56356 22.9172 9.7694 22.5785 9.7694 22.2905C9.7694 22.0025 9.75846 21.1676 9.75482 20.2547C6.69464 20.9158 6.048 18.9634 6.048 18.9634C5.5489 17.6955 4.82757 17.3623 4.82757 17.3623C3.82936 16.6849 4.90226 16.6976 4.90226 16.6976C6.00793 16.7755 6.589 17.8259 6.589 17.8259C7.56899 19.4977 9.16282 19.0141 9.78943 18.7315C9.88779 18.0234 10.1738 17.5416 10.4889 17.2681C8.0444 16.9928 5.47603 16.0546 5.47603 11.8635C5.46088 10.7766 5.86653 9.72549 6.60903 8.92763C6.4961 8.65233 6.11903 7.54027 6.7165 6.02975C6.7165 6.02975 7.64003 5.73634 9.74208 7.15087C11.5451 6.66061 13.4474 6.66061 15.2504 7.15087C17.3506 5.73634 18.2723 6.02975 18.2723 6.02975C18.8716 7.53665 18.4946 8.64871 18.3816 8.92763C19.1265 9.72562 19.533 10.7786 19.5164 11.8672C19.5164 16.0673 16.9426 16.9928 14.4945 17.2627C14.8879 17.6032 15.2395 18.2679 15.2395 19.2894C15.2395 20.7528 15.2267 21.9301 15.2267 22.2905C15.2267 22.5821 15.4253 22.9226 15.9827 22.8157C18.4599 21.9932 20.5621 20.3212 21.9132 18.0988C23.2644 15.8764 23.7763 13.2485 23.3575 10.6853C22.9387 8.12198 21.6164 5.79043 19.6272 4.10762C17.638 2.42481 15.1116 1.5005 12.4999 1.5H12.4962Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M8.85471 19.3527C8.85471 19.4415 8.75271 19.5176 8.62156 19.5194C8.4904 19.5212 8.38293 19.4487 8.38293 19.36C8.38293 19.2712 8.48495 19.1952 8.6161 19.1934C8.74725 19.1916 8.85471 19.2622 8.85471 19.3527Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M9.69264 19.2133C9.70903 19.302 9.61795 19.3944 9.4868 19.4161C9.35565 19.4379 9.2409 19.3853 9.2245 19.2984C9.20811 19.2115 9.30283 19.1173 9.43034 19.0938C9.55784 19.0702 9.67624 19.1245 9.69264 19.2133Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M7.95493 19.2911C7.92761 19.3762 7.80374 19.4142 7.67988 19.378C7.55601 19.3418 7.47405 19.2404 7.49772 19.1534C7.5214 19.0665 7.64709 19.0266 7.77278 19.0665C7.89846 19.1063 7.97861 19.2023 7.95493 19.2911Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M7.12975 18.9362C7.06964 19.0032 6.9476 18.9851 6.84742 18.8945C6.74723 18.804 6.72355 18.6808 6.78366 18.6156C6.84377 18.5504 6.96581 18.5685 7.06964 18.6573C7.17347 18.746 7.19351 18.871 7.12975 18.9362Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M6.5414 18.3276C6.47401 18.3747 6.35924 18.3276 6.29549 18.2335C6.27786 18.2166 6.26384 18.1963 6.25427 18.1739C6.24469 18.1515 6.23975 18.1274 6.23975 18.103C6.23975 18.0787 6.24469 18.0546 6.25427 18.0322C6.26384 18.0098 6.27786 17.9896 6.29549 17.9727C6.36289 17.9275 6.47765 17.9726 6.5414 18.065C6.60516 18.1574 6.60698 18.2805 6.5414 18.3276Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M6.1079 17.6992C6.07018 17.7181 6.02702 17.7233 5.98582 17.7141C5.94461 17.7048 5.90793 17.6816 5.88203 17.6484C5.81099 17.5724 5.79641 17.4673 5.85106 17.4202C5.9057 17.3731 6.00408 17.3949 6.07512 17.4709C6.14616 17.547 6.16255 17.6521 6.1079 17.6992Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M5.66154 17.2047C5.63786 17.259 5.55043 17.2753 5.47939 17.2373C5.40835 17.1993 5.35552 17.1286 5.38103 17.0725C5.40653 17.0163 5.49214 17.0019 5.56318 17.0399C5.63422 17.0779 5.68886 17.1504 5.66154 17.2047Z"
+                            fill="#313B49"
+                          />
+                        </svg>
+                      </a>
+                      <a
+                        href="https://juliardiniz.github.io/Tabela-Organizadora/"
+                        target="_blank"
+                        class="visitar"
+                        >Visitar</a
+                      >
+                    </div>
+                  </div>
+                  <div class="descricao-projeto div-info-pag-three">
+                    <div class="div-info">
+                      <h3 class="titulo-projeto">Organizador Semanal</h3>
+                      <p class="texto-info-projeto">
+                        Site interativo com uma tabela organizadora para
+                        auxiliar os usuários no planejamento semanal de forma
+                        prática e eficiente. Possui salvamento no localStorage,
+                        edição dinâmica dos campos e interface responsiva, além
+                        de botões para salvar e excluir a tabela. Construído com
+                        HTML, CSS, SCSS (Sass) e JavaScript. O site é responsivo
+                        e interativo.
+                      </p>
+                    </div>
+                    <div class="logo-linguagens">
+                      <img
+                        src="imagens/java-script_721671.png"
+                        alt="logo-javascript"
+                        width="24px"
+                      />
+                      <img
+                        src="imagens/HTML logo.png"
+                        alt="logo-html"
+                        width="24px"
+                      />
+                      <img
+                        src="imagens/css-3.png"
+                        alt="logo-css"
+                        width="24px"
+                      />
+                      <img src="imagens/sass logo.png" alt="logo scss" />
+                    </div>
+                  </div>
+                  <div class="veja-mais">
+                    <div class="circle one"></div>
+                    <div class="circle two"></div>
+                    <div class="circle three"></div>
+                    <div class="circle four"></div>
+                  </div>
+                </div>
+
+                <div class="info-projetos pag-four pag-escondida">
+                  <div class="img-projeto div-img-pag-four">
+                    <img src="imagens/sitePortfolio.png" alt="" />
+                    <div class="div-button">
+                      <a
+                        href="https://github.com/JuliaRDiniz/PizzaHash"
+                        target="_blank"
+                        class="gitHub"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 25 25"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M12.4962 1.5C9.8848 1.50135 7.35899 2.42628 5.37046 4.10937C3.38192 5.79247 2.06033 8.124 1.64199 10.687C1.22365 13.2501 1.73584 15.8775 3.08699 18.0996C4.43814 20.3216 6.54013 21.9933 9.0171 22.8157C9.56356 22.9172 9.7694 22.5785 9.7694 22.2905C9.7694 22.0025 9.75846 21.1676 9.75482 20.2547C6.69464 20.9158 6.048 18.9634 6.048 18.9634C5.5489 17.6955 4.82757 17.3623 4.82757 17.3623C3.82936 16.6849 4.90226 16.6976 4.90226 16.6976C6.00793 16.7755 6.589 17.8259 6.589 17.8259C7.56899 19.4977 9.16282 19.0141 9.78943 18.7315C9.88779 18.0234 10.1738 17.5416 10.4889 17.2681C8.0444 16.9928 5.47603 16.0546 5.47603 11.8635C5.46088 10.7766 5.86653 9.72549 6.60903 8.92763C6.4961 8.65233 6.11903 7.54027 6.7165 6.02975C6.7165 6.02975 7.64003 5.73634 9.74208 7.15087C11.5451 6.66061 13.4474 6.66061 15.2504 7.15087C17.3506 5.73634 18.2723 6.02975 18.2723 6.02975C18.8716 7.53665 18.4946 8.64871 18.3816 8.92763C19.1265 9.72562 19.533 10.7786 19.5164 11.8672C19.5164 16.0673 16.9426 16.9928 14.4945 17.2627C14.8879 17.6032 15.2395 18.2679 15.2395 19.2894C15.2395 20.7528 15.2267 21.9301 15.2267 22.2905C15.2267 22.5821 15.4253 22.9226 15.9827 22.8157C18.4599 21.9932 20.5621 20.3212 21.9132 18.0988C23.2644 15.8764 23.7763 13.2485 23.3575 10.6853C22.9387 8.12198 21.6164 5.79043 19.6272 4.10762C17.638 2.42481 15.1116 1.5005 12.4999 1.5H12.4962Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M8.85471 19.3527C8.85471 19.4415 8.75271 19.5176 8.62156 19.5194C8.4904 19.5212 8.38293 19.4487 8.38293 19.36C8.38293 19.2712 8.48495 19.1952 8.6161 19.1934C8.74725 19.1916 8.85471 19.2622 8.85471 19.3527Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M9.69264 19.2133C9.70903 19.302 9.61795 19.3944 9.4868 19.4161C9.35565 19.4379 9.2409 19.3853 9.2245 19.2984C9.20811 19.2115 9.30283 19.1173 9.43034 19.0938C9.55784 19.0702 9.67624 19.1245 9.69264 19.2133Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M7.95493 19.2911C7.92761 19.3762 7.80374 19.4142 7.67988 19.378C7.55601 19.3418 7.47405 19.2404 7.49772 19.1534C7.5214 19.0665 7.64709 19.0266 7.77278 19.0665C7.89846 19.1063 7.97861 19.2023 7.95493 19.2911Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M7.12975 18.9362C7.06964 19.0032 6.9476 18.9851 6.84742 18.8945C6.74723 18.804 6.72355 18.6808 6.78366 18.6156C6.84377 18.5504 6.96581 18.5685 7.06964 18.6573C7.17347 18.746 7.19351 18.871 7.12975 18.9362Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M6.5414 18.3276C6.47401 18.3747 6.35924 18.3276 6.29549 18.2335C6.27786 18.2166 6.26384 18.1963 6.25427 18.1739C6.24469 18.1515 6.23975 18.1274 6.23975 18.103C6.23975 18.0787 6.24469 18.0546 6.25427 18.0322C6.26384 18.0098 6.27786 17.9896 6.29549 17.9727C6.36289 17.9275 6.47765 17.9726 6.5414 18.065C6.60516 18.1574 6.60698 18.2805 6.5414 18.3276Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M6.1079 17.6992C6.07018 17.7181 6.02702 17.7233 5.98582 17.7141C5.94461 17.7048 5.90793 17.6816 5.88203 17.6484C5.81099 17.5724 5.79641 17.4673 5.85106 17.4202C5.9057 17.3731 6.00408 17.3949 6.07512 17.4709C6.14616 17.547 6.16255 17.6521 6.1079 17.6992Z"
+                            fill="#313B49"
+                          />
+                          <path
+                            d="M5.66154 17.2047C5.63786 17.259 5.55043 17.2753 5.47939 17.2373C5.40835 17.1993 5.35552 17.1286 5.38103 17.0725C5.40653 17.0163 5.49214 17.0019 5.56318 17.0399C5.63422 17.0779 5.68886 17.1504 5.66154 17.2047Z"
+                            fill="#313B49"
+                          />
+                        </svg>
+                      </a>
+                      <a
+                        href="https://pizzariahash-proj.netlify.app/"
+                        target="_blank"
+                        class="visitar"
+                        >Visitar</a
+                      >
+                    </div>
+                  </div>
+                  <div class="descricao-projeto div-info-pag-four">
+                    <div class="div-info">
+                      <h3 class="titulo-projeto">Portfólio</h3>
+                      <p class="texto-info-projeto">
+                        Desenvolvi meu portfólio pessoal, para apresentar meus
+                        projetos, habilidades e conhecimentos. O site é
+                        totalmente responsivo e interativo, proporcionando uma
+                        navegação intuitiva e moderna. Criado com HTML, CSS,
+                        SCSS (Sass) e JavaScript.
+                      </p>
+                    </div>
+                    <div class="logo-linguagens">
+                      <img
+                        src="imagens/java-script_721671.png"
+                        alt="logo-javascript"
+                        width="24px"
+                      />
+                      <img
+                        src="imagens/HTML logo.png"
+                        alt="logo-html"
+                        width="24px"
+                      />
+                      <img
+                        src="imagens/css-3.png"
+                        alt="logo-css"
+                        width="24px"
+                      />
+                      <img src="imagens/sass logo.png" alt="logo scss" />
+                    </div>
+                  </div>
+                  <div class="veja-mais">
+                    <div class="circle one"></div>
+                    <div class="circle two"></div>
+                    <div class="circle three"></div>
+                    <div class="circle four"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              class="seta-direita"
+              src="imagens/arrow logo.png"
+              alt="seta-direita"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato">
+      <div class="container-rodape">
+        <div class="agradecimento">
+          <h3>Obrigada por chegar até aqui!</h3>
+          <img src="imagens/Green Heart.png" alt="coração verde" />
+        </div>
+
+        <div class="contato">
+          <div class="div email">
+            <div class="title">
+              <p>Contato:</p>
+              <img src="imagens/Envelope.png" alt="Envelope" width="20px" />
+            </div>
+            <a href="mailto:juliarodriguesdiniiz@outlook.com"
+              >juliarodriguesdiniiz@outlook.com</a
+            >
+          </div>
+
+          <div class="div linkedin">
+            <div class="title">
+              <p>Vamos nos conectar:</p>
+              <img src="imagens/Handshake.png" alt="Mãos dadas" width="20px" />
+            </div>
+            <a
+              href="https://www.linkedin.com/in/julia-diniz-43a893257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              >Linkedin</a
+            >
+          </div>
+
+          <div class="div mais-info">
+            <div class="title">
+              <p>Para mais informações:</p>
+              <img
+                src="imagens/Page Facing Up.png"
+                alt="Curriculo"
+                width="20px"
+              />
+            </div>
+            <a href="imagens/curriculo.pdf" target="_blank">Currículo</a>
+          </div>
+        </div>
+        <span
+          >Copyright © 2025 Julia Diniz – Todos os direitos reservados.</span
+        >
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
