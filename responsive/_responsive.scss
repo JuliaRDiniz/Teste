@@ -4,10 +4,9 @@
 
     & body {
       & main {
-        & .about-me {
+        & #about-me {
           & .container-about {
             & .cx-square {
-              background-color: aliceblue;
               gap: 0.8rem;
               grid-template-columns: repeat(3, 9rem) !important;
               grid-template-rows: repeat(3, 9rem) !important;

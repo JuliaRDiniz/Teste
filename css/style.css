@@ -45,24 +45,23 @@
   html {
     font-size: 48% !important;
   }
-  html body main .about-me .container-about .cx-square {
-    background-color: aliceblue;
+  html body main #about-me .container-about .cx-square {
     gap: 0.8rem;
     grid-template-columns: repeat(3, 9rem) !important;
     grid-template-rows: repeat(3, 9rem) !important;
     height: 245px !important;
     width: 245px !important;
   }
-  html body main .about-me .container-about .cx-square .square {
+  html body main #about-me .container-about .cx-square .square {
     width: 9rem !important;
     height: 9rem !important;
   }
-  html body main .about-me .container-about .cx-square .img {
+  html body main #about-me .container-about .cx-square .img {
     width: 105px !important;
     top: 58.85% !important;
     left: 48% !important;
   }
-  html body main .about-me .container-about .cx-about-me {
+  html body main #about-me .container-about .cx-about-me {
     width: 39rem;
     gap: 0.8rem;
   }
