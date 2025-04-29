@@ -4,21 +4,30 @@
 
     & body {
       & main {
+        & #home {
+          & .titulo {
+            font-size: 25px;
+          }
+        }
         & .about-me {
           & .container-about {
             .cx-square {
+              position: relative;
+              min-height: 300px;
+              -webkit-display: grid;
+              display: grid;
               grid-template-columns: repeat(3, 1fr);
               grid-template-rows: auto;
               width: 80%;
               height: auto;
               margin: 0 auto;
               justify-items: center;
-              align-items: center;
+              align-items: flex-end;
+
               .img {
                 position: absolute;
-                top: 22%;
+                top: 65%;
                 left: 50%;
-                transform: translate(-50%);
                 width: 120px;
                 height: auto;
                 z-index: 1;
@@ -28,6 +37,11 @@
             .cx-about-me {
               width: 90%;
               padding: 1rem;
+
+              & p {
+                font-size: 13px;
+                text-align: -webkit-auto;
+              }
             }
           }
         }

@@ -45,20 +45,26 @@
   html {
     font-size: 48% !important;
   }
+  html body main #home .titulo {
+    font-size: 25px;
+  }
   html body main .about-me .container-about .cx-square {
+    position: relative;
+    min-height: 300px;
+    -webkit-display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     width: 80%;
     height: auto;
     margin: 0 auto;
     justify-items: center;
-    align-items: center;
+    align-items: flex-end;
   }
   html body main .about-me .container-about .cx-square .img {
     position: absolute;
-    top: 22%;
+    top: 65%;
     left: 50%;
-    transform: translate(-50%);
     width: 120px;
     height: auto;
     z-index: 1;
@@ -66,6 +72,10 @@
   html body main .about-me .container-about .cx-about-me {
     width: 90%;
     padding: 1rem;
+  }
+  html body main .about-me .container-about .cx-about-me p {
+    font-size: 13px;
+    text-align: -webkit-auto;
   }
   html body main .projetos .container-projeto .subtitulo-projetos {
     font-size: 6.5rem !important;
