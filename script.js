@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(() => {
     firstSquare.classList.toggle("pink-border");
     lastSquare.classList.toggle("green-border");
-  }, 1000);
+  }, 100000);
 
   const myObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
